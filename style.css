@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    justify-content: space-around;
+}
+
+ul{
+   color: white;
+   display: flex;
+   flex-direction: row; 
+   list-style: none;
+   margin: 30px;
+   align-content: space-around;
+   
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+nav p{
+    margin: 30px;
+    color: #ffffff;
+}
+.flex-container{
+   width: 100%;
+
+}
+.kiri{
+
+    background: url("backpage.jpeg");
+    width: 50%;
+    float: left;    
+    position: absolute;
+    /* background-color: orange; */
+    height: 92.4%;
+}
+.kanan{
+    height: 100%;
+    width: 50%;
+    background-color: green;
+    float: right;
+}
+.foto-profile{
+    width: 170px;
+    border-radius: 50%;
+}
