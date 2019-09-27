@@ -44,16 +44,22 @@ nav p{
     width: 50%;
     float: left;    
     position: absolute;
-    /* background-color: orange; */
     height: 92.4%;
+    text-align: center;
+    padding-top: 40px;
+    color: #ffffff;
 }
 .kanan{
     height: 100%;
     width: 50%;
-    background-color: green;
+    background-color: rgb(255, 255, 255);
     float: right;
 }
 .foto-profile{
     width: 170px;
     border-radius: 50%;
+}
+.biodata{
+    padding: 50px;
+    
 }
